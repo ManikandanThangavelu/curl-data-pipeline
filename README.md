@@ -70,8 +70,4 @@ Below is an example curl request and response to get the Top 3 teams.
 
 **Request**
 
-> curl --location --request POST 'http://localhost:8000/query_data' \
-
->--header 'Content-Type: application/json' \
-
->--data-raw '{"symbol": "BTC/INR"}'
+> curl --location --request POST 'http://localhost:8000/query_data' --header 'Content-Type: application/json' --data-raw '{"symbol": "BTC/INR"}'
